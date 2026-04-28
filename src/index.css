@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100..700;1,100..700&family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-mono: 'IBM Plex Mono', 'JetBrains Mono', ui-monospace, SFMono-Regular, monospace;
+}
+
+body {
+  @apply font-mono bg-neutral-100 text-[#111111] h-screen w-screen flex flex-col p-2 sm:p-4 md:p-4 items-center justify-center m-0 box-border overflow-hidden;
+}
+
+.editorial-slider {
+  @apply w-full appearance-none h-[1px] bg-[#ccc] outline-none my-3;
+}
+
+.editorial-slider::-webkit-slider-thumb {
+  @apply appearance-none w-3 h-3 bg-[#111] cursor-pointer;
+}
+

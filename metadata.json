@@ -1,0 +1,6 @@
+{
+  "name": "ASCII Studio",
+  "description": "Convert local videos and images into ASCII art animations entirely in the browser.",
+  "requestFramePermissions": [],
+  "majorCapabilities": []
+}
